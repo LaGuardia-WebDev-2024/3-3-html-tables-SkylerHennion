@@ -1,34 +1,59 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Challenge: The dinner table</title>
-        <style>
-          table, th, td {
-            border: 1px solid;
-          }
-        </style>
-    </head>
-    <body>
-    
-        <h1>Our dinner menu</h1>
+  <head>
+    <meta charset="utf-8" />
+    <title>Challenge: The dinner table</title>
+    <style>
+      h1 {font-family: "verdana";}
       
-          <img src="plate_blue.jpg" width=50>
-          <img src="plate_yellow.jpg" width=50>
+      table,
+      th,
+      td {
+        border: 1px solid;
+        padding: 4px;
+        text-align: center;
+        background-color: lightblue;
+        font-size: 30px;
+        font-family: "courier";
+        
+      }
+      th {
+        background-color: pink;
+        font-family: "helvetica";
+        text-align: left;
+      }
       
-        <table>
-            <thead>
-                <tr>
-                    <th>Meal</th>
-                    <th>Ingredients</th>
-                    <th>Price</th>
-                </tr>
-            </thead>
-            <tbody>
-                
-            </tbody>
-        </table>
+      .food {background-color: lavender}
+
+      
+    </style>
+  </head>
+  <body>
+    <h1>Our Dinner Menu</h1>
 
 
-    </body>
+    <table>
+      <thead>
+        <tr>
+          <th>Meal</th>
+          <th>Ingredients</th>
+          <th>Price</th>
+          <th>link</th>
+        </tr>
+        <tr>
+          <td >children</td>
+          <td class = "food">children</td>
+          <td>free</td>
+          <td><a href="https://en.wikipedia.org/wiki/Child"> here</a></td>
+        </tr>
+        <tr>
+          <td class = "food">annoying ppl</td>
+          <td>ppl who are annoying</td>
+          <td>$50</td>
+          <td class = "food"><a href = "https://en.wikipedia.org/wiki/Most_Annoying_People"> ppl</a></td>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </body>
 </html>
